@@ -1,10 +1,10 @@
 class Power:
-    def __init__(self,n,p):
+    def __init__(self,n,x):
         self.n=n
-        self.p=p
+        self.x=x
 
     def pow(self):
-        print(self.n**self.p)
+        print(self.n**self.x)
 
 a=int(input("Enter the number: "))
 b=int(input("Enter the power: "))
